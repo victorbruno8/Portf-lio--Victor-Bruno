@@ -163,8 +163,7 @@ nav a:hover {
 }
 
 .hero-content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
     gap: 4rem;
     align-items: center;
 }
@@ -226,10 +225,10 @@ nav a:hover {
 }
 
 .about-content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
     gap: 4rem;
     align-items: center;
+    text-align: center;
 }
 
 .about-text h2 {
